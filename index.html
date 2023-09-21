@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosto</title>
+    <link rel="icon" type="image/x-icon" href="./download (1).png">
+
+       <!-- bootstrap links -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js" integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+       <!-- bootstrap icons -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+       <!-- font Awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <style>
+        img{
+            height: 400px;
+        }
+        .logo{
+          opacity: 0.1;
+        }
+        .logo:hover{
+          opacity: 1.0;
+        }
+       </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-secondary bg-white" aria-label="Offcanvas navbar large">
+        <div class="container-fluid ms-3">
+            <i class="bi bi-tree-fill text-success " style="font-size: 30px;"></i>
+          <a class="navbar-brand ms-1 fw-bolder " href="#">Hosto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body me-3">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link text-success active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">Layouts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Elements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Contact Us</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- carousel -->
+      <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide   ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./photo-1455587734955-081b22074882.avif" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div> -->
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./photo-1542314831-068cd1dbfeeb.avif" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="./photo-1566073771259-6a8506099945.avif" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section> 
+
+<section class="mb-5">
+<div class="container mt-5"> 
+<div class="row text-align-center ">
+      
+    <div class="card col-lg-4 col-md-12 text-center bg-success  border-0 "  >
+        <div class="mt-3">
+      <i class="fa-regular fa-thumbs-up bg-success bg-opacity-75 text-white  rounded-circle w-25" style="font-size: 50px;" ></i>
+      <h6 class="text-white mt-2">Mobile</h6>
+      <h1 class="text-white">Secure & reliable</h1>
+      <p class="text-center text-white mt-3">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam molestias consequatur dolorem voluptatum temporibus provident hic beatae explicabo nihil quod exercitationem nisi deserunt quibusdam, impedit, dicta sed vitae delectus molestiae!</p>
+
+        </div>
+      
+    </div>
+    <div class="card col-lg-4 col-md-12 text-center bg-success bg-opacity-75 border-0 ">
+         <div class="mt-3">
+      <i class="fa-solid fa-comments bg-success bg-opacity-50 text-white  rounded-circle w-25" style="font-size: 50px;" ></i>
+      <h6 class="text-white mt-2">Mobile</h6>
+      <h1 class="text-white">customer support</h1>
+      <p class=" text-center text-white mt-3">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam molestias consequatur dolorem voluptatum temporibus provident hic beatae explicabo nihil quod exercitationem nisi deserunt quibusdam, impedit, dicta sed vitae delectus molestiae!</p>
+
+        </div>
+
+    </div>
+    <div class="card col-lg-4 col-md-12 text-center bg-success bg-opacity-50 border-0">
+        <div class="mt-3">
+            <i class="fa-solid fa-rocket bg-success bg-opacity-25 text-white  rounded-circle w-25" style="font-size: 50px;" ></i>
+            <h6 class="text-white mt-2">Mobile</h6>
+            <h1 class="text-white">quick and super fast</h1>
+            <p class=" text-center text-white mt-3">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam molestias consequatur dolorem voluptatum temporibus provident hic beatae explicabo nihil quod exercitationem nisi deserunt quibusdam, impedit, dicta sed vitae delectus molestiae!</p>
+              </div>
+    </div>
+  </div>
+</div>
+      </section>
+
+      <section class="mt-5 mb-5  container">
+        <div class="row text-center">
+            <div class="col-lg-12 ">
+                <h2 class="text-success fs-1 "> <span class="text-secondary">Hosto</span> Plans <span class="text-secondary">&</span> pricing</h2>
+                <h6 class="text-secondary text-opacity-50">our hosting plans in detail, choose the right plan for you!</h6>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- pricing -->
+      <section class="container">
+      <div class="row mb-3 text-center">
+        <div class="col-lg-3 col-md-6 ">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 text-bg-success">
+              <h4 class="my-0 fw-normal">Web Hosting</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$212<sup>.60</sup><small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-success">Sign up Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 text-bg-success bg-opacity-75">
+              <h4 class="my-0 fw-normal">Reseller Hosting</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$152<sup>.25</sup><small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-success">Sign up Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 text-bg-success bg-opacity-75">
+              <h4 class="my-0 fw-normal">Vps Hosting</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$293<sup>.42</sup><small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-success">Sign up Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card mb-4 rounded-3 shadow-sm ">
+              <div class="card-header py-3 text-bg-success bg-opacity-50">
+                <h4 class="my-0 fw-normal">Domain Name</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$252<sup>.23</sup><small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-success">Sign up Now</button>
+              </div>
+            </div>
+          </div>
+      </div>
+</section>
+     
+<section class="mt-5 mb-5  container">
+  <div class="row text-center">
+      <div class="col-lg-12 ">
+          <h2 class="text-success fs-1 "> <span class="text-secondary">Key Features of</span> Hosto</h2>
+          <h6 class="text-secondary text-opacity-50">our hosting plans in detail, choose the right plan for you!</h6>
+      </div>
+  </div>
+</section>
+
+
+<!-- cards -->
+<section class="mt-5 mb-5 container">
+  <div class="row">
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success" style="font-weight: bold;" >$1.99</span> /month</p>
+          </div>
+        <!--          
+        <svg height="100" width="100" style="position: relative; float:right;">
+          <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
+          <text x="50" y="50" text-anchor="middle" alignment-baseline="after-edge" fill="grey" font-size="10">
+          starting $1.99 /month</text>
+        </svg> -->
+        <h5 class="card-title fw-bold text-success">Web hosting</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success"  style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <h5 class="card-title fw-bold text-success">E-commerce</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success"  style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <h5 class="card-title fw-bold text-success">Domains</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success"  style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <h5 class="card-title fw-bold text-success">My Website</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="mt-5 mb-5 container">
+  <div class="row">
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success"  style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <!--          
+        <svg height="100" width="100" style="position: relative; float:right;">
+          <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
+          <text x="50" y="50" text-anchor="middle" alignment-baseline="after-edge" fill="grey" font-size="10">
+          starting $1.99 /month</text>
+        </svg> -->
+        <h5 class="card-title fw-bold text-success">Web hosting</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success"  style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <h5 class="card-title fw-bold text-success">E-commerce</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success " style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <h5 class="card-title fw-bold text-success">servers</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-6" >
+      <div class="card-body">
+        <div class="rounded-circle text-align-center " style="width: 70px; border:solid gray 1px; height: 70px; position: relative; float: right;"> 
+          <p class=" ms-3 mt-2 " style="font-size :0.6rem;">starting from <span class="text-success"  style="font-weight: bold;">$1.99</span> /month</p>
+          </div>
+        <h5 class="card-title fw-bold text-success">MyWebsite Personal</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button class="btn btn-success btn-opacity-50"> Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mt-5 mb-5 container">
+  <div class="row text-align-center">
+    <div class=" col-lg-3 col-md-6  logo" >
+      <img src="./html.png" class="m-auto w-100 h-50 " alt="">
+      </div>
+      <div class=" col-lg-3 col-md-6  logo" >
+        <img src="./jquery.png" class="m-auto w-100 h-50 " alt="">
+        </div>
+        <div class=" col-lg-3 col-md-6 logo" >
+          <img src="./css3.png" class="m-auto w-100 h-50 " alt="">
+          </div>
+    
+          <div class=" col-lg-3 col-md-6 logo" >
+            <img src="./bootstrap.jpg" class="m-auto w-100 h-50 " alt="" >
+            </div>
+      </div>
+    </section>
+<!-- footer -->
+
+<div class="container bg-opacity-10 bg-secondary ">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-solid fa-house text-success fs-6 me-2"></i> 3303 yahia Haqi st</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-solid fa-phone text-success fs-6 me-2"></i> 021212</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-solid fa-envelope text-success fs-6 me-2"></i> mail@gamil</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Navigation</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>useful links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Recent Posts</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Tags</h5>
+        <span class="badge bg-success">Business</span>
+        <span class="badge bg-success">Corporate</span>
+        <span class="badge bg-success">Portfolio</span>
+        <span class="badge bg-success">Clean</span>
+        <span class="badge bg-success">Template</span>
+        <span class="badge bg-success">WordPress</span>
+      </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Hosto, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="m-2 fs-3 "><a  href="#"><i class="fa-brands fa-facebook text-success "></i></a></li>
+        <li  class="m-2 fs-3"><a  href="#"><i class="fa-brands fa-twitter text-success"></i></a></li>
+        <li class="m-2 fs-3"><a  href="#"><i class="fa-brands fa-square-instagram text-success"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
+
